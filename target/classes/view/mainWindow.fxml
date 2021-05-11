@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="h8.chikey.controller.MainController">
+   <children>
+      <TableView fx:id="tableView" layoutX="14.0" layoutY="14.0" prefHeight="289.0" prefWidth="576.0">
+        <columns>
+          <TableColumn fx:id="columnID" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="columnLastName" prefWidth="210.0" text="Фамилия студента" />
+            <TableColumn fx:id="columnSpecial" prefWidth="219.0" text="Специальность" />
+            <TableColumn fx:id="columnBall" minWidth="7.0" prefWidth="71.0" text="Ср.балл" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
